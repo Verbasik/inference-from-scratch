@@ -55,8 +55,8 @@ Prompt → Tokenize → Prefill → KV Cache
 | # | Тема | Статус |
 |---|------|--------|
 | 1 | Токенизация (HF Qwen3 adapter) | ✅ |
-| 2 | Семплинг (temperature, top-k, top-p) | — |
-| 3 | Mock-модель и prefill логиты | — |
+| 2 | Семплинг (temperature, top-k, top-p) | ✅ |
+| 3 | Mock-модель и prefill логиты | ✅ |
 | 4 | Decode loop и простой планировщик | — |
 
 ### Фаза B — Память и стриминг
